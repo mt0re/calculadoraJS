@@ -27,7 +27,6 @@ class Display {
     }
 
     computar(tipo) {
-        console.log(tipo);
         (this.tipoOperacion !== 'igual' && this.tipoOperacion !== undefined) && this.calcular();
         this.tipoOperacion = tipo;
         this.valorAnterior = this.valorActual || this.valorAnterior;
